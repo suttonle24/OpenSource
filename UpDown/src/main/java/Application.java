@@ -12,6 +12,18 @@ public class Application {
     private static String  currentDirection = "";
     private static Integer iteration = 0;
     private static String currentString = "";
+    private static String[] forwardCat = new String[]{
+            "_._     _,-'\"\"`-._",
+            "(,-.`._,'(       |\\`-/|",
+            "    `-.-' \\ )-`( , o o)",
+            "          `-    \\`_`\"'-"};
+    private static String[] backwardCat = new String[]{
+            "  /\\_/\\",
+            "  >^.^<.---.",
+            " _'-`-'     )\\",
+            "(6--\\ |--\\ (`.`-.",
+            "    --'  --'  ``-'"};
+
 
     // runner
     private static void runner(){
