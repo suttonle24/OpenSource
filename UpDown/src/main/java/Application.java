@@ -12,6 +12,7 @@ public class Application {
     private static String  currentDirection = "";
     private static Integer iteration = 0;
     private static String currentString = "";
+    private static Integer motionCounter = 0;
     private static String[] forwardCat = new String[]{
             "_._     _,-'\"\"`-._",
             "(,-.`._,'(       |\\`-/|",
@@ -32,9 +33,7 @@ public class Application {
 
             checkDirection(currentString);
 
-            currentString = alterString(currentString);
-
-            System.out.println(currentString);
+            printCat();
 
             iteration++;
 
@@ -55,10 +54,10 @@ public class Application {
     }
 
     private static void checkDirection(String currentString) {
-        if(currentString.length() <= 0){
+        if(motionCounter <= 0){
             currentDirection = UP_DIRECTION;
         }
-        if(currentString.length() >= 10){
+        if(motionCounter >= 50){
             currentDirection = DOWN_DIRECTION;
         }
     }
@@ -72,5 +71,32 @@ public class Application {
             updatedString = updatedString.substring(0, updatedString.length() - 1);
         }
         return updatedString;
+    }
+
+    private static void printCat(){
+        if(currentDirection.equals(UP_DIRECTION)){
+            motionCounter++;
+            for(String s : forwardCat){
+                String output = "";
+                output = buildPrepend(motionCounter) + s;
+                System.out.println(output);
+            }
+        }
+        else {
+            motionCounter--;
+            for(String s : backwardCat){
+                String output = "";
+                output = buildPrepend(motionCounter) + s;
+                System.out.println(output);
+            }
+        }
+    }
+
+    private static String buildPrepend(Integer motionCounter){
+        String prependedString = "";
+        for(int i = 0; i < motionCounter; i++){
+            prependedString += " ";
+        }
+        return  prependedString;
     }
 }
