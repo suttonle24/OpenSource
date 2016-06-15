@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28eca90e-f094-4a1f-981d-3113eb23893f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Application.class" afterPath="$PROJECT_DIR$/target/classes/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Application.java" afterPath="$PROJECT_DIR$/src/main/java/Application.java" />
     </list>
     <ignored path="UpDown.iws" />
@@ -40,10 +38,11 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="386">
+              <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
               <folding>
                 <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+                <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
                 <element signature="method#alterString#0;class#Application#0" expanded="false" />
               </folding>
             </state>
@@ -487,11 +486,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="2160" height="1410" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -531,7 +530,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Application.java</url>
-          <line>56</line>
+          <line>81</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -558,6 +557,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>
@@ -577,6 +577,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>
@@ -596,6 +597,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>
@@ -615,6 +617,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>
@@ -634,6 +637,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>
@@ -653,6 +657,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>
@@ -672,6 +677,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>
@@ -691,6 +697,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>
@@ -710,6 +717,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>
@@ -729,6 +737,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>
@@ -744,10 +753,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="386">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
           <folding>
             <element signature="method#checkIteration#0;class#Application#0" expanded="false" />
+            <element signature="method#checkDirection#0;class#Application#0" expanded="false" />
             <element signature="method#alterString#0;class#Application#0" expanded="false" />
           </folding>
         </state>

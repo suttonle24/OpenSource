@@ -47,6 +47,31 @@ public class Application {
 
     }
 
+    private static void printCat(){
+        String[] currentCat;
+        if(currentDirection.equals(UP_DIRECTION)){
+            motionCounter++;
+            currentCat = forwardCat;
+        }
+        else {
+            motionCounter--;
+            currentCat = backwardCat;
+        }
+        for(String s : currentCat){
+            String output = "";
+            output = buildPrepend(motionCounter) + s;
+            System.out.println(output);
+        }
+    }
+
+    private static String buildPrepend(Integer motionCounter){
+        String prependedString = "";
+        for(int i = 0; i < motionCounter; i++){
+            prependedString += " ";
+        }
+        return  prependedString;
+    }
+
     private static void checkIteration(Integer iteration){
         if(iteration >= MAX_ITERATIONS){
             System.exit(1);
@@ -71,32 +96,5 @@ public class Application {
             updatedString = updatedString.substring(0, updatedString.length() - 1);
         }
         return updatedString;
-    }
-
-    private static void printCat(){
-        if(currentDirection.equals(UP_DIRECTION)){
-            motionCounter++;
-            for(String s : forwardCat){
-                String output = "";
-                output = buildPrepend(motionCounter) + s;
-                System.out.println(output);
-            }
-        }
-        else {
-            motionCounter--;
-            for(String s : backwardCat){
-                String output = "";
-                output = buildPrepend(motionCounter) + s;
-                System.out.println(output);
-            }
-        }
-    }
-
-    private static String buildPrepend(Integer motionCounter){
-        String prependedString = "";
-        for(int i = 0; i < motionCounter; i++){
-            prependedString += " ";
-        }
-        return  prependedString;
     }
 }
